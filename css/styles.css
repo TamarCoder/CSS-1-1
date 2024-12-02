@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
@@ -17,7 +17,7 @@ h1 {
     text-align: center;
 }
 
-#div1 {
+#firstBlock {
     display: flex;
     width: 565px;
     padding: 24px 40px;
@@ -25,10 +25,6 @@ h1 {
     gap: 10px;
     background: #FFE8E8;
     margin: 20px 20px;
-
-}
-
-#div1 p {
     color: #F00;
     font-family: Lato;
     font-size: 32px;
@@ -38,7 +34,7 @@ h1 {
 
 }
 
-#div2 {
+#secondBlock {
     display: flex;
     width: 1023px;
     padding: 24px 40px;
@@ -49,10 +45,6 @@ h1 {
     border-bottom: 6px solid #7F56D9;
     border-left: 6px solid #C11574;
     margin: 20px 20px;
-
-}
-
-#div2 p {
     color: #85647B;
     text-align: center;
     font-family: Lato;
@@ -60,20 +52,19 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
-#div3 {
+
+
+#thirBlock {
     display: flex;
-    width: 1023px;
+    width: 1050px;
     padding: 24px 40px;
     align-items: center;
     gap: 10px;
     background: #FFE8E8;
     margin: 20px 20px;
-
-}
-
-#div3 p {
     color: #414651;
     text-align: center;
     font-family: lato;
@@ -81,9 +72,12 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
-#div3 span {
+
+
+#thirBlock span {
     color: #FF4405;
     font-family: Lato;
     font-size: 40px;
@@ -91,15 +85,15 @@ h1 {
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-    text-decoration-skip: solid;
-    text-decoration-skip: solid;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
     text-decoration-thickness: auto;
     text-underline-offset: auto;
     text-underline-position: from-font;
 
 }
 
-#div4 {
+#fortyBlock {
     display: flex;
     width: 1069px;
     padding: 24px 40px;
@@ -107,10 +101,6 @@ h1 {
     gap: 10px;
     border: 2px solid #3538CD;
     margin: 20px 20px;
-
-}
-
-#div4 p {
     color: #0064CE;
     text-align: right;
     font-family: Lato;
@@ -118,9 +108,11 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
-#div5 {
+
+#images {
     width: 556px;
     height: 347px;
     flex-shrink: 0;
