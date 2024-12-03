@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-h1 {
+h1{
     color: #8E26C0;
     font-family: "JetBrains Mono";
     font-size: 64px;
@@ -31,7 +31,6 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 #secondBlock {
@@ -52,10 +51,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
-
-
 
 #thirBlock {
     display: flex;
@@ -72,10 +68,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
-
-
 
 #thirBlock span {
     color: #FF4405;
@@ -108,7 +101,6 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 
@@ -117,5 +109,4 @@ h1 {
     height: 347px;
     flex-shrink: 0;
     margin: 40px 20px;
-
 }
